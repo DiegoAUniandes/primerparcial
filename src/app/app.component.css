@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inter&display=swap');
+
+.title {
+  width: 392px;
+  height: 48px;
+
+  font-family: 'Indie Flower';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 53px;
+  margin-left: 0px;
+  color: #000000;
+}
+img {
+  width: 1320px;
+  height: 323px;
+}
+footer {
+  font-family: 'Inter';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-top: 5%;
+}

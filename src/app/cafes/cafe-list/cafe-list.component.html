@@ -1,7 +1,20 @@
-<div class="container-fluid">
-  <div class="row">
-    <div class="col mb-2" *ngFor="let cafe of cafes">
-      {{ cafe.nombre }}
-    </div>
-  </div>
+<div class="container-fluid tableGeneralStyle">
+  <table class="table ">
+    <thead class="tableHeader">
+      <tr class="cellFormat">
+        <th scope="col">#</th>
+        <th scope="col">Nombre</th>
+        <th scope="col">Tipo</th>
+        <th scope="col">Región</th>
+      </tr>
+    </thead>
+    <tbody >
+      <tr class="cellFormat" *ngFor="let cafe of cafes">
+        <th scope="row">{{ cafe.id }}</th>
+        <td>{{ cafe.nombre }}</td>
+        <td>{{ cafe.tipo }}</td>
+        <td>{{ cafe.region }}</td>
+      </tr>
+    </tbody>
+  </table>
 </div>

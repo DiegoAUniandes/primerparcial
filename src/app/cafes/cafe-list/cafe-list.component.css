@@ -1,0 +1,15 @@
+.tableHeader {
+  color: white;
+  background: #333A40;
+}
+
+.tableGeneralStyle {
+  margin-left: 5%;
+  margin-top: 2%;
+  padding-right: 50%;
+  padding-left: 0px;
+}
+
+.cellFormat {
+  margin-left: 10px;
+}
